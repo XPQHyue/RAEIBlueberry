@@ -1,0 +1,8 @@
+device R7KA8P1KF
+si SWD
+speed 4000
+connect
+loadfile "E:/e2_studio/workspace/011RA8P1_BlueBoom/Debug/011RA8P1_BlueBoom.elf"
+r
+go
+exit

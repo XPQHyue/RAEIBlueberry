@@ -1,0 +1,30 @@
+# e2 studio / Renesas build output
+Debug/
+*.elf
+*.map
+*.srec
+*.rpd
+*.sbd
+*.cref
+*.lst
+*.sym
+*.bin
+*.hex
+
+# J-Link logs
+JLinkLog.log
+*.jlink.log
+
+# IDE settings (user-local)
+.settings/
+.api_xml
+.secure_azone
+.secure_rzone
+.secure_xml
+
+# clangd cache
+.clangd/
+
+# OS
+Thumbs.db
+.DS_Store
